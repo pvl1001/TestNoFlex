@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=0.86, maximum-scale=3.0, minimum-scale=0.86">
+    <meta http-equiv="content-type" content="text/html">
+    <link rel="stylesheet" href="css.css">
+    <!--    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js">-->
+    <title>Test</title>
+</head>
+
+
+<body>
+<div class="header">
+    <div class="container">
+        <div class="header__first-block"></div>
+        <div class="header__content">
+            <div class="small-round__text"><span>Lorem ipsum dolor sit amet, consectetur</span></div>
+            <div class="small-round__text"><span>Lorem ipsum dolor sit amet, consectetur</span></div>
+            <div class="small-round__text"><span>Lorem ipsum dolor sit amet, consectetur</span></div>
+
+            <div class="small-round__text"><span>Lorem ipsum dolor sit amet, consectetur</span></div>
+            <div class="small-round__text"><span>Lorem ipsum dolor sit amet, consectetur</span></div>
+            <div class="small-round__text"><span>Lorem ipsum dolor sit amet, consectetur</span></div>
+
+            <div class="big-round">
+                <div class="small-round"></div>
+                <div class="small-round"></div>
+                <div class="small-round"></div>
+
+                <div class="small-round"></div>
+                <div class="small-round"></div>
+                <div class="small-round"></div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="content">
+    <div class="container">
+        <div class="info">
+            <div class="info__block-1">
+                <div class="block-left">
+                    <div class="block-left__round"></div>
+                    <div class="block-left__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci
+                        eaque fugit iusto libero natus, praesentium quos ratione similique? Assumenda debitis earum
+                        ipsum nemo non pariatur quisquam quod voluptates! A, saepe?
+                    </div>
+                    <div class="block-right">
+                        <div class="block-right__wrapper">
+                            <div class="like">Like</div>
+                            <div class="counter">557</div>
+                            <div class="share">Share</div>
+                            <div class="counter">351</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="d-table">
+
+                <a href="#target1" class="info__block-2">
+                    <div id="target1" class="info__block-2_bg"></div>
+                    <div class="info__block-2_text">
+                        <div class="title">heading</div>
+                        <div class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad ducimus esse
+                            inventore itaque minus neque porro, quae quam repudiandae rerum. Asperiores earum enim
+                            labore
+                            nostrum, odio rerum saepe sapiente soluta.
+                        </div>
+                    </div>
+                </a>
+                <a href="#target2" class="info__block-2">
+                    <div id="target2" class="info__block-2_bg"></div>
+                    <div class="info__block-2_text">
+                        <div class="title">heading</div>
+                        <div class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad ducimus esse
+                            inventore itaque minus neque porro, quae quam repudiandae rerum. Asperiores earum enim
+                            labore
+                            nostrum, odio rerum saepe sapiente soluta.
+                        </div>
+                    </div>
+                </a>
+                <a href="#target3" class="info__block-2">
+                    <div id="target3" class="info__block-2_bg"></div>
+                    <div class="info__block-2_text">
+                        <div class="title">heading</div>
+                        <div class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad ducimus esse
+                            inventore itaque minus neque porro, quae quam repudiandae rerum. Asperiores earum enim
+                            labore
+                            nostrum, odio rerum saepe sapiente soluta.
+                        </div>
+                    </div>
+                </a>
+<!--                <a href="#target4" class="info__block-2">-->
+<!--                    <div id="target4" class="info__block-2_bg"></div>-->
+<!--                    <div class="info__block-2_text">-->
+<!--                        <div class="title">heading</div>-->
+<!--                        <div class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad ducimus esse-->
+<!--                            inventore itaque minus neque porro, quae quam repudiandae rerum. Asperiores earum enim-->
+<!--                            labore-->
+<!--                            nostrum, odio rerum saepe sapiente soluta.-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                </a>-->
+
+                <div id="wrapper100" class="wrapper-100">
+                    <div class="btn">order</div>
+                </div>
+            </div>
+
+
+
+            <div class="sidebar"></div>
+        </div>
+    </div>
+
+</div>
+<div class="footer">Lorem ipsum dolor sit amet.</div>
+
+</body>
+
+
+<script>
+
+    let infoBlock = document.getElementsByClassName('info__block-2');
+    let wrapper100 = document.getElementById('wrapper100');
+
+
+    if (infoBlock.length % 2 !== 1) {
+        wrapper100.style.cssText = "width: 100%; margin: 0";
+    }
+
+</script>
+</html>
+
